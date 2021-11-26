@@ -25,3 +25,14 @@ m para los siguientes casos
 <p align="center">
 <img src= https://i.postimg.cc/nzG6dZJY/replit-logo.png)](https://postimg.cc/ygWQdMWk)>
 </p>
+
+
+
+# Implementación
+Funciones
+
+>long long  EuclidesGeneral( );
+>long long  inversoM();
+>long long int Gcd( );
+>void KEYGENERATOR();
+>long long int modular();

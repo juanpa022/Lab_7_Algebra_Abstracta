@@ -10,23 +10,19 @@ long long int modular(unsigned long long int a, unsigned long long int exp, unsi
 int main(){
 
     cout<<"a)\n " ;
-    long long int e = 65537, n = 999630013489, c = 747120213790, mensaje,p,q,phi,d;
-    for (long long i = 2; i < n; i++) {
-        if (!(n % i)) {
-            p = i; q = n / p;
+    long long int a = 65537, b = 999630013489, c = 747120213790, mensaje,x,y,tem,d;
+    for (long long i = 2; i < b; i++) {
+        if (!(b % i)) {
+            x= i; y= b / x;
             break;
         }
     }
-    phi = (p - 1) * (q - 1);
-    d = inversoM(e, phi);
-    mensaje = modular(c, d, n);
+    tem= (x - 1) * (y - 1);
+    d = inversoM(a,tem);
+    mensaje = modular(c, d, b);
     cout << "El mensaje es: " << mensaje;
-    c = modular(mensaje, e, n);
+    c = modular(mensaje, a, b);
     cout << "\nEl encriptado es: " << c; 
-
-    
-
-    
     return 0;
 }
 

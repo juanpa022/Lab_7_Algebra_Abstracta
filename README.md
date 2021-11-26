@@ -40,3 +40,6 @@ Funciones
 >void KEYGENERATOR();
 
 >long long int modular();
+
+
+-El codido  RSA, m^e mod n = c, teniendo e,n y c, hallar el mensaje. Calculamos si n es producto de dos numeros, p y q, luego vemos si estos son coprimos, hallamos phi luego d, teniendo ya d podemos calcular m. c^d mod n = m, despues en modo de comprobacion calculamos c teniendo m, m^e mod n = c.

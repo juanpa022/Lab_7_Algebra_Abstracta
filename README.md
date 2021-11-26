@@ -32,7 +32,11 @@ m para los siguientes casos
 Funciones
 
 >long long  EuclidesGeneral( );
+
 >long long  inversoM();
+
 >long long int Gcd( );
+
 >void KEYGENERATOR();
+
 >long long int modular();

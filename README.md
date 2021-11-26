@@ -16,7 +16,10 @@ casos resulta que me mod n = m?
 
 >2. RSA Attacks: Si m es el mensaje y c es el texto-cifrado interceptado (ambos
 representados por un entero). Adem´as, la clave p´ublica es PJ = {e, n} (en ese orden). Hallar
-m para los siguientes casos:
+m para los siguientes casos
+
+
+
 :boom:  Compilador  :boom:
 
 <p align="center">
